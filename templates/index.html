@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Stream</title>
+    
+    <link rel="icon" href="{{ url_for('static', filename='assets/favicon.ico') }}" type="image/x-icon">
+    
+    <style>
+        body {
+            background-color: #8dd6ee; 
+            display: flex;
+            justify-content: center; /* Centraliza horizontalmente */
+            align-items: center; /* Centraliza verticalmente */
+            height: 100vh; /* Altura total da tela */
+            margin: 0; /* Remove margens padrão */
+            position: relative; /* Para que os elementos filhos sejam posicionados em relação ao body */
+        }
+
+        img {
+            width: 800px; 
+            height: auto; /* Mantém a proporção do vídeo */
+        }
+
+        h1 {
+            position: absolute; /* Posiciona o texto sobre o vídeo */
+            top: 6px; /* Distância do topo da tela */
+    
+            left: 50%; /* Centraliza horizontalmente */
+            transform: translateX(-50%); /* Ajusta para que o texto fique centralizado */
+            color: white;
+            font-size: 50px;
+            text-align: center; /* Centraliza o texto */
+            z-index: 10; /* Garante que o texto fique acima do vídeo */
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Video Processing with OpenCV</h1>
+    <img src="{{ url_for('video_feed') }}" width="600"> <!-- Ajuste o tamanho aqui se necessário -->
+</body>
+</html>
