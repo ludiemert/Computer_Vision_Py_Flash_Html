@@ -28,6 +28,19 @@ pip install opencv-python flask numpy
 └── assets/                # Folder for static files (images, CSS, etc.)
     └── index.html        # HTML page to display the video
 
+
+---
+
+<h4 align="center">1_opencvBasic 🚀</h4>
+
+<div align="center">
+    <img src="1_opencvBasic/1_img_open_cv/6 - Dilate - dilatar a imagem de contornos.png" style="width: 45%; margin-right: 5%;" alt="01 - img piramed">
+    <img src="1_opencvBasic/1_img_open_cv/8 - process de closing and opening img.png" style="width: 45%;" alt="01 - img piramed">
+</div>
+
+---
+
+
 How to Use
 Configure the Spaces:
 
