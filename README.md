@@ -1,5 +1,9 @@
-# Computer_Vision_Py_Flash_Html
-Computer vision using Python with OpenCV, Flask, and HTML
+<h2 align="center"> 💻 Computer_Vision_Py_Flash_Html </h2>
+<br>
+
+<h3 align="center"> 💻 Computer vision using Python with OpenCV, Flask, and HTML </h3>
+<br>
+
 
 ## Parking Space Monitoring
 
@@ -17,8 +21,14 @@ You will also need to install the following libraries:
 ```bash
 pip install opencv-python flask numpy
 
+```
+
+
+---
 
 ## Project Structure
+
+```bash
 
 /your_project/
 │
@@ -28,35 +38,41 @@ pip install opencv-python flask numpy
 └── assets/                # Folder for static files (images, CSS, etc.)
     └── index.html        # HTML page to display the video
 
+```
 
 ---
 
 <h4 align="center">1_opencvBasic 🚀</h4>
 
 <div align="center">
-    <img src="1_opencvBasic/1_img_open_cv/6 - Dilate - dilatar a imagem de contornos.png" style="width: 45%; margin-right: 5%;" alt="01 - img piramed">
-    <img src="1_opencvBasic/1_img_open_cv/8 - process de closing and opening img.png" style="width: 45%;" alt="01 - img piramed">
+    <img src="img_proj/pag_web.png" style="width: 45%; margin-right: 5%;" alt="01 pag_web.png">
+    <img src="img_proj/project_structure.png" style="width: 45%;" alt="01 - img piramed">
 </div>
 
 ---
 
-
-How to Use
+##How to Use
 Configure the Spaces:
 
 Before running the project, you need to define the parking spaces in the video.
 Run the code responsible for capturing the coordinates of the spaces and generating the vacancies.pkl file.
 Run the Server:
 
-After defining the spaces, you can start the Flask server. Execute the following command in the terminal:
+## After defining the spaces, you can start the Flask server. Execute the following command in the terminal:
 
+```bash
 python app.py
+```
 
-Access the Web Interface:
+---
 
-Open your browser and go to http://127.0.0.1:5000/ to view the interface.
-The video will be processed, and available spaces will be displayed in real-time.
-Features
+## Access the Web Interface:
+
+- Open your browser and go to http://127.0.0.1:5000/ to view the interface.
+- The video will be processed, and available spaces will be displayed in real-time.
+---
+
+## Features
 Space Detection: The system detects occupied and free spaces based on the provided coordinates.
 Web Interface: Displays a stream of the processed video with information about available spaces.
 Contribution
